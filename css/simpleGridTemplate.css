@@ -73,6 +73,7 @@ header {
 .intro {
 	background-color: #FFFFFF;
 	padding-bottom: 35px;
+	width: 100%;
 }
 .column {
 	width: 50%;
