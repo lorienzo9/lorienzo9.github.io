@@ -1,48 +1,403 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Light Theme</title>
-<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Header -->
-  <header class="header">
-    <ul	class = "menu" >
-		<li> About</li>
-		<li>Projects</li>
-	</ul>
-  </header>
-  <!-- Hero Section -->
-  <section class="intro">
-    <div class="column">
-      <img src="images/me_pic.jpg" alt="" class="profile"> </div>
-    <div class="column">
-	  <h3>LORENZO ZANET</h3>
-      <p>Ingegnere Elettronico <br> Università degli Studi di Udine</p>
-    </div>
-  </section>
+<!DOCTYPE html>
+<html lang="en">
 
-  <!-- Footer Section -->
-  <footer id="contact">
-    <p class="hero_header">CONTATTAMI SUI SOCIAL</p>
-	  <div class="social_container">
-		  <div class="social">
-			  <img class="social_img" href="https://www.facebook.com/lorenzo.zanet" src="images/facebook.png" alt ="facebook" width="40px">
-		  </div>
-		  <div class="social">
-			  <img class="social_img" src="images/instagram.png" alt ="instagram" width="40px">
-		  </div>
-	  </div>
-	  
-  </footer>
-  <!-- Copyrights Section -->
-  <div class="copyright">&copy;2021 - <strong>lorienzo9&nbsp;</strong></div>
-</div>
-<!-- Main Container Ends -->
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Personal Portfolio</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="images/favicon.png" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+	
+
+    <div class="container">
+      <div class="header-content">
+        <h1>I'm Lorenzo Zanet</h1>
+        <p>Electronic Engineer</p>
+
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2 class="mb-30">- About Me -</h2>
+          </div>
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/home-bg.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">I'm an Electronic Engineer, specialized in Power Electronics.</p>
+            <p class="separator">Degree in Electronics Engineering in the University of Udine with a thesis on "Control of PV modules for drones charge" in 2021.
+              Now, I'm attending a Master Degree in the University of Padova in Elecrtonics Engineering. Intrested in power electronics and in control techniques implemented to control converters and electric motors.
+              Expecially interested in applications related to the automotive industry. </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2 class="mb-30">- My Portfolio -</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="images/portfolio/1.jpg">
+                <img src="images/portfolio/open_loop_gain.png" alt="img">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="portfolio-descr">
+            <h5>Power Electronics: PID design and simulation </h5>
+            <p> Design of an analogue PID controller to control the output voltage of a Boost converter operating in CCM. The converter has been designed assunìming 60 deg of phase margin
+                and 10 kHz of bandwidth. The system was first simulated in Simulink by means of a swithing model of the converter considering the main parasitics elements. Then, after the
+                implementation of the controller in a board using throughole components, there were a test phase to validate the behavior of the model.</p>
+          	<hr class="separator">
+		</div>
+
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="images/portfolio/electric_drive">
+                <img src="images/portfolio/electric_drive.png" alt="img">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="portfolio-descr">
+            <h5>Power Electronics: DC motor electric drive </h5>
+            <p>Design of a board to implement a current control in a low power DC motor. The control has been performed using a STM32 connected by means of external pins.
+            The measure of the current, instead, has been performed using another external board ACS712. The controller used is a digital PID controller implemented with an algorithm in the micro controller.
+            The circuit is capable to drive the motor in two different directions, thanks to the presence of a bidirectional H-bridge.</p>
+            <hr class="separator">
+		</div>
+
+      </div>
+    </div>
+<!--
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="images/portfolio/electric_drive">
+                <img src="images/portfolio/electric_drive.png" alt="img">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="portfolio-descr">
+            <h5>Power Electronics: Inverter SVPWM simulation </h5>
+            <p>Implementation and simulation via MATLAB/Simulink of a conventional SVPWM algorithm to control a three phase system. The simulation was performed generating the time intervals to open the switches of the inverter
+               adopting a symmethrical strategy to select the time intervals to turn on the switches in order to reduce the switching losses. Finally, there was analyzed an improved technique in order to adapt the SVPVM
+               and to reduce the contribute of the third and the seveth harmonics.</p>
+          	<hr class="separator">
+          </div>
+
+      </div>
+    </div>
+-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="images/portfolio/electric_drive">
+                <img src="images/portfolio/boost_efficiency.png" alt="img">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="portfolio-descr">
+            <h5>Power Electronics: Losses and thermal analysis in a Boost Converter </h5>
+            <p>Analysis of thermal losses and efficiency in a Boost converter considering the effect of the reverse recovery in the power diode
+		and the main parasitics components in the power devices.</p>
+          	<hr class="separator">
+          </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-container">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="images/portfolio/1.jpg">
+                <img src="images/portfolio/1.jpg" alt="img">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="portfolio-descr">
+            <h5>Analogue Electronics: OTA design and simulation</h5>
+            <p>Design and simulation of different topologies of OTA amplifiers. From the simplest one which is the 5T-OTA, to some more complicated basic topologies
+		like the <i>Folded Cascode</i> two stage amplifier with compensation capacitance, using Virtuoso as simulation software.</p>
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal
+  <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>journal</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>-->
+
+  <!-- start sectoion contact
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">- GET IN TOUCH -</h2>
+
+              <ul class="contact-details">
+                <li><span>Italia, Udine</span></li>
+                <li><span>Precenicco, Via Paludo 1/B</span></li>
+                <li><span>+39 377 2916516</span></li>
+                <li><span>lorienzo.zanet@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+<p>Follow me on Instagram or LinkedIn, or contact me!</p>
+
+        <ul class="list-unstyled">
+          <li><a href="https://www.instagram.com/lorienzo9"><i class="ion-social-instagram"></i></a></li>
+          <li><a href='https://it.linkedin.com/in/lorenzo-zanet'><i class="ion-social-linkedin"></i></a></li>
+          <li><a href='mailto:lorienzo.zanet@gmail.com'><i class="ion-android-mail"></i></a></li>
+        </ul>
+
+      </div>
+
+
+      <p>&copy; Copyrights Lorenzo Zanet. <br/>All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
