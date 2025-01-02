@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="178.33142"
+   height="140.88953"
+   viewBox="0 0 178.33142 140.88953"
+   sodipodi:docname="r.pdf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="5.2894734e-07"
+       y="-7.8776384e-06"
+       width="178.33142"
+       height="140.88953"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="g69"
+     inkscape:groupmode="layer"
+     inkscape:label="4"
+     transform="translate(-1664.9911,-305.51447)">
+    <g
+       id="g110-2"
+       transform="translate(8.3230065,195.91178)"
+       inkscape:export-filename="g110-2.svg"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <path
+         id="path110-6"
+         d="m 144.90114,210.95256 h 60.81309 v 23.53548 h -60.81309 z"
+         style="fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,1560,510.71997)" />
+    </g>
+    <g
+       id="g113-3"
+       transform="translate(8.3230065,195.91178)">
+      <path
+         id="path113-5"
+         d="m 72.876,261.13776 h 59.47657 v 23.53548 H 72.876 Z"
+         style="fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,1560,510.71997)" />
+    </g>
+    <path
+       style="fill:#034cae;fill-opacity:1;stroke:#034cae;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:0.6;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 1683.8167,327.05678 h 97.0605 L 1712.4221,445.904 h -36.2083 l 50.6123,-87.46192 -61.3351,0.006 z"
+       id="path117-6" />
+    <path
+       style="fill:#373737;fill-opacity:1;stroke:#373737;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 1824.4968,424.86167 h -97.0605 l 68.4551,-118.8472 h 36.2083 l -50.6123,87.4619 61.3351,-0.01 z"
+       id="path117-5-4" />
+  </g>
+</svg>
